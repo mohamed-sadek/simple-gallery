@@ -1,50 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Simple Gallery</title>
 
 		<link href="css/style.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div id = "simple-gallery" class="carousel">
+
+			<div id = "main">
+				<img id = "main-img" src="img/assassins.jpg" alt = "" />
+				<p id = "main-caption">
+					Assassin's Creed
+				</p>
+			</div>
+			<!--End of Main!-->
+			
+			<div class="thumbs_container">
+
+			<ul class="thumbs">
+				<li>
+					<a href="#"><img src="img/thumbs/assassins-thumb.jpg" alt = "Assassin's Creed" /><span class="zoom active">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/battlefield-thumb.jpg" alt = "Battlefield" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/falloutlasvegas-thumb.jpg" alt = "Fallout - Las Vegas" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/falloutstandby-thumb.jpg" alt = "Fallout - Standby Screen" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/masseffect-thumb.jpg" alt = "Mass Effect" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/skyrim-thumb.jpg" alt = "Skyrim" /><span class="zoom">&nbsp;</span></a>
+				</li>
+								<li>
+					<a href="#"><img src="img/thumbs/colossus-thumb.jpg" alt = "Shadow of the Colossus" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/darksiders-thumb.jpg" alt = "Darksiders" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/deadspace-thumb.jpg" alt = "Deadspace" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/pokemon-thumb.jpg" alt = "Pokemon" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/portal2-thumb.jpg" alt = "Portal 2" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/pyro-thumb.jpg" alt = "Pyro" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/assassins2-thumb.jpg" alt = "Assassin's Creed" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/aliens-thumb.jpg" alt = "Aliens" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/sonic-thumb.jpg" alt = "Sonic" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/thumbs/prototype-thumb.jpg" alt = "Prototype" /><span class="zoom">&nbsp;</span></a>
+				</li>
+				
+			</ul>
+			
+			</div>
+			
+			
+			<a href="#" class="next-slide">Next</a>
+			<a href="#" class="prev-slide disabled">Previous</a>
+			
+
+		</div>
+		<!--End of Gallery Root!-->
+
+		<script src="js/simple-gallery.js"></script>
+
+		
 		
 
-
-</head>
-
-<body>
-
-<div id = "simple-gallery">
-
-<div id = "main">
-<img id = "main-img" src="img/assassins.jpg" alt = "" />
-<p id = "main-caption">Assassin's Creed</p>
-</div>
-<!--End of Main!-->
-
-<ul class="thumbs">
-<li><a href="#"><img src="img/thumbs/assassins-thumb.jpg" alt = "Assassin's Creed" /><span class="zoom"></span></a></li>
-<li><a href="#"><img src="img/thumbs/battlefield-thumb.jpg" alt = "Battlefield" /><span class="zoom"></span></a></li>
-<li><a href="#"><img src="img/thumbs/falloutlasvegas-thumb.jpg" alt = "Fallout - Las Vegas" /><span class="zoom"></span></a></li>
-<li><a href="#"><img src="img/thumbs/falloutstandby-thumb.jpg" alt = "Fallout - Standby Screen" /><span class="zoom"></span></a></li>
-<li><a href="#"><img src="img/thumbs/masseffect-thumb.jpg" alt = "Mass Effect" /><span class="zoom"></span></a></li>
-<li><a href="#"><img src="img/thumbs/skyrim-thumb.jpg" alt = "Skyrim" /><span class="zoom"></span></a></li>
-</ul>
-
-
-
-
-
-
-</div>
-<!--End of Gallery Root!-->
-
-
-<script src="js/simple-gallery.js"></script>
-
-</body>
-
-
-
+	</body>
 
 </html>
